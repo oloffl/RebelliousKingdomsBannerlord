@@ -1,0 +1,27 @@
+﻿<Module>
+  <Name value="Rebellious Kingdoms" />
+  <Id value="RebelliousKingdoms" />
+  <Version value="v1.3.0" />
+  <SingleplayerModule value="true" />
+  <MultiplayerModule value="false" />
+  <Official value="false" />
+  <DependedModules>
+    <DependedModule Id="Native" />
+    <DependedModule Id="SandBoxCore" />
+    <DependedModule Id="Sandbox" />
+    <DependedModule Id="CustomBattle" />
+    <DependedModule Id="StoryMode" />
+  </DependedModules>
+  <SubModules>
+    <SubModule>
+      <Name value="RebelliousKingdoms" />
+      <DLLName value="RebelliousKingdoms.dll" />
+      <SubModuleClassType value="RebelliousKingdoms.RebelliousKingdomsSubModule" />
+      <Tags>
+        <Tag key="DedicatedServerType" value="none" />
+        <Tag key="IsNoRenderModeElement" value="false" />
+      </Tags>
+    </SubModule>
+  </SubModules>
+  <Xmls/>
+</Module>

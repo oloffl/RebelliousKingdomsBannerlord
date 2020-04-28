@@ -1,0 +1,7 @@
+{
+  "FortificationRebellionLimit": 15,
+  "RebellionChanceModifier": 8,
+  "MinimumChanceModifier": 10,
+  "OnlyRebelInDifferentCultureForts": false,
+  "OnlySiegeCastles": true
+}

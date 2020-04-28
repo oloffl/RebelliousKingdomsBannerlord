@@ -1,0 +1,10 @@
+
+# User
+.vs/*
+*.user
+
+# Binaries
+RebelliousKingdoms/bin/*
+RebelliousKingdoms/RebelliousKingdoms/bin/*
+RebelliousKingdoms/obj/*
+packages/*
