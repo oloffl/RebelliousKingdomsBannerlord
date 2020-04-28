@@ -1,6 +1,6 @@
 ﻿# Shattered Kingdoms
 
-This mod makes (almost) every clan in every faction become their own kingdom and go to war with each other. Every week the game rolls a die to see if a rebellion will happen within larger kingdoms. The larger the kingdom, the more likely a rebellion will strike. 
+Every week the game rolls a die to see if a rebellion will happen within larger kingdoms. The larger the kingdom, the more likely a rebellion will strike. 
 
 Help is always welcome, check out the known issues and make a pull request or report a new issue. 
 
@@ -22,10 +22,7 @@ Help is always welcome, check out the known issues and make a pull request or re
 
 1.0.2
 * Dynamic rebellions now available, every week a die is rolled for each large kingdom. The larger the kingdom, the more likely a rebellion will strike. Multiple randomly generated kingdoms spawn and attack castles around the kingdom. They might win and become a new contender, or they will fail and will have weakend the kingdom's armies. 
-* Improved some secondary colors
 
-1.0.1
-* Changed colors for kingdoms and clans, feedback/suggestions are welcome
 
 ### Modifying the RebellionConfig.json
 
@@ -46,20 +43,16 @@ OnlySiegeCastles can either be true or false
 
 ### Installation
 
-Drop the ShatteredKingdoms/RebelliousKingdoms/both folder containing the SubModule.xml, bin and ModuleData in your M&B Bannerlord Modules folder, enable it in the launcher and create a new campaign.
+Drop the RebelliousKingdoms folder containing the SubModule.xml and bin folder in your M&B Bannerlord Modules folder, enable it in the launcher and create a new campaign.
 
 Also check if the .dll in the bin folder is not blocked by windows by right clicking on it and checking properties.
 
 
 ### Known Issues
 
-1. The original kingdom leader cannot unjoin his own faction
-2. (This is now alleviated by random rebellions occuring) Clans which at a start of a new campaign only own a castle cannot become their own kingdom. This results in the original kingdom having more clans than the ones who break off. 
-3. Annoying popups when clans are destroyed. 
+1. Annoying popups when clans are destroyed. 
 
 ### Reported Issues
-
-1. A report of high RAM to crash at campaign start (Probably not related)
 
 
 ### Thanks
